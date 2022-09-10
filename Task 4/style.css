@@ -1,29 +1,45 @@
 /* Resets */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
 /* Mobile first */
 .wrapper {
-  min-height: 100vh;
-  min-width: calc(100vw - (100vw - 100%));
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-height: 100vh;
+  min-width: calc(100vw - (100vw - 100%));
 }
 
 .container {
-  width: 100%;
+  align-items: center;
+  background-color: rgb(109, 207, 49);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
+  
 }
 
 .container h1 {
-  margin-top: 50px;
   color: #333;
+  margin-top: 50px;
+ 
+}
+
+h2 {
+  background-color: rgb(156, 97, 185);
+  border-radius: 10px;
+  color: #333;
+  margin:10px 10px 10px 10px;
+  text-align: center;
+}
+
+p {
+  padding:12px;
 }
