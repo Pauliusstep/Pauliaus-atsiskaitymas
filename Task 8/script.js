@@ -27,7 +27,7 @@ function Calculator(a, b) {
     }
 };
 
-const calculate = new Calculator(a,b);
+const calculate = new Calculator();
 console.log(calculate.sum(10,5));
 console.log(calculate.subtraction(10,5));
 console.log(calculate.multiplication(10,5));
